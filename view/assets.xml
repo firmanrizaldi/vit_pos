@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<odoo>
+    <data>
+        <template id='onhand_asset' name="onhand_asset" inherit_id="point_of_sale.assets">
+            <xpath expr="." position="inside">
+                <link rel="stylesheet" href="/vit_pos/static/src/css/style.css"/>
+                <script type="text/javascript" src="vit_pos/static/src/js/model.js"></script>
+                <script type="text/javascript" src="vit_pos/static/src/js/screen.js"></script>
+            </xpath>
+        </template>
+    </data>
+</odoo>
